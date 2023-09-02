@@ -4,7 +4,7 @@ while True:
     Controller.print_menu()
     menu_flag = int(input("Type your choose: "))
     if menu_flag == 1:
-        Controller.user_add()
+        Controller.add_new_user()
     elif menu_flag == 2:
         Controller.get_all()
     elif menu_flag == 3:
